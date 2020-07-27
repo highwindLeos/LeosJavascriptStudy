@@ -32,7 +32,7 @@ console.log(age);
 console.log('=======================');
 
 /*
-    3. const key word : 상수 키워드 (Constants)
+    3. const key word : 상수 키워드 (Constants) [read only]
     - 값의 보안성
     - 프로세스에 의한 값 변경 불가
     - 명확한 코드의 가독성이 상승    
@@ -107,7 +107,6 @@ const gSymbol2 = Symbol.for('id');
 console.log(gSymbol1 === gSymbol2); // true
 console.log(`value : ${gSymbol1.description}, type : ${typeof gSymbol1}`);
 console.log(`value : ${gSymbol2.description}, type : ${typeof gSymbol2}`);
-
 console.log('=======================');
 
 /* 4. Variable Type  
