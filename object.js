@@ -145,5 +145,3 @@ const user4 = Object.assign({}, user);
 //console.log(user);
 console.log(user4);
 console.log(`========================`);
-
-
