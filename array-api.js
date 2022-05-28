@@ -83,7 +83,6 @@ const students = [
     console.log(`===================`);
 }
 
-
 /*
     Quiz 6 : enrolled 한 학생 [수업을 듣는 학생] 학생 찾기. 
 */
@@ -102,7 +101,6 @@ const students = [
     console.log(`===================`);
 }
 
-
 /*
     Quiz 8 : 학생의 점수가 50점 이하인 사람이 있는지를 확인. 
 */
@@ -114,7 +112,6 @@ const students = [
     console.log(result2);
     console.log(`===================`);
 }
-
 
 /*
     Quiz 9 : 학생의 점수 평균값을 산출. 
@@ -135,7 +132,6 @@ const students = [
     console.log(`===================`);
 }
 
-
 /*
     Quiz 10 : 학생의 점수를 string 값으로 만들기. 
 */
@@ -151,7 +147,7 @@ const students = [
 */
 {
     const result = students.map((student) => student.score )
-                           .sort((a, b) => a -b ) // 정렬 : 정렬 순서를 정의하는 함수. 생략하면 배열은 각 요소의 문자열 변환에 따라 각 문자의 유니 코드 코드 포인트 값에 따라 정렬됩니다.
+                           .sort((a, b) => a - b ) // 정렬 : 정렬 순서를 정의하는 함수. 생략하면 배열은 각 요소의 문자열 변환에 따라 각 문자의 유니 코드 코드 포인트 값에 따라 정렬됩니다.
                            .join()
     console.log(`result : ${result}`);
     console.log(`Array Quiz End ===================`);
